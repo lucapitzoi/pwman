@@ -1,3 +1,0 @@
-/home/neo/Projects/lucapitzoi/pwman/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/neo/Projects/lucapitzoi/pwman/cmake-build-debug/CMakeFiles/pwman.dir
-/home/neo/Projects/lucapitzoi/pwman/cmake-build-debug/CMakeFiles/edit_cache.dir
