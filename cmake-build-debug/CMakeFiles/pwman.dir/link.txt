@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/pwman.dir/main.c.o CMakeFiles/pwman.dir/settings.c.o  -o pwman 

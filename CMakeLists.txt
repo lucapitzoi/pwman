@@ -3,4 +3,4 @@ project(pwman C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(pwman main.c)
+add_executable(pwman main.c settings.c)
