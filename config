@@ -1,0 +1,11 @@
+# PwMan Configuration File
+
+# User Configuration
+#username pwman
+#key_file ~/.pwman/key.pem
+
+
+# System Configuration
+#max_auth_tries 3
+#auto_login false #please leave comment here
+#max_games 40

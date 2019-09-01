@@ -2,13 +2,16 @@
 #define _SETTINGS_H_
 
 // a constant definition exported by library:
-#define MAX_TEST  20
+#define CONFIG_FILE  config
 
 // a type definition exported by library:
-typedef struct test_struct {
-    int x;
-    float y;
-} test_struct;
+typedef struct config {
+    char username;
+    char key_file;
+    int max_auth_tries;
+    bool auto_login;
+    int max_games;
+} config;
 
 // a global variable exported by library
 // "extern" means that this is not a variable declaration, it
@@ -17,6 +20,9 @@ typedef struct test_struct {
 extern int total_test;
 
 // a function prototype for a function exported by library:
+extern int load_config(float y, float z);
+extern int parse_config(float y, float z);
 extern int test(float y, float z);
+
 
 #endif
